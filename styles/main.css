@@ -506,3 +506,32 @@ details[open] > summary { margin-bottom: .5rem; }
 @media (prefers-reduced-motion: reduce) {
     * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
 }
+
+/* BEGIN footer-nav-styles (managed by add_footer_nav.py) */
+/* Home-link: outlined "ghost" variant to distinguish from prev/next */
+.lesson-nav .home-link {
+    background: transparent;
+    color: var(--primary-color);
+    border: 2px solid var(--primary-color);
+}
+.lesson-nav .home-link:hover {
+    background: var(--primary-color);
+    color: #fff;
+    transform: translateY(-1px);
+}
+
+/* First lesson uses <span></span> as a prev placeholder; keep it inert */
+.lesson-nav > span:empty { flex: 0 0 auto; }
+
+.site-footer p { margin: .35rem 0; }
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: .5rem;
+}
+.site-footer .footer-links a { text-decoration: none; }
+.site-footer .footer-links a:hover { text-decoration: underline; }
+/* END footer-nav-styles */

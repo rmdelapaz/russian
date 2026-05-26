@@ -93,7 +93,7 @@ Each lesson includes: vocabulary tables (Russian + Transliteration + English), g
    - Set custom domain: `rays-russian.netlify.app`
    - Connect to git repo or drag-and-drop deploy
 
-4. **Update rayhome files** (index.html, updates.html, search.html, status.md):
+4. **Update rayhome files** ✅ (index.html, updates.html, search.html):
    - Add "Russian Language Course" link in Language Topics section
    - Add Russian entry to SITES array in updates.html
    - Add Russian entry to INDEX array in search.html with keyword tags
